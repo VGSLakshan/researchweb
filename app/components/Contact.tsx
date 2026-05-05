@@ -31,7 +31,7 @@ const INFO = [
       </svg>
     ),
     label: "Email Address",
-    value: "INSEECCement@gmail.com",
+    value: "lakshansanchitha2000@gmai.com",
     sub: "We reply within 24 hours",
   },
 ];
@@ -68,7 +68,7 @@ function Toast({ show }: { show: boolean }) {
 
 export default function Contact() {
   const [name, setName]       = useState("INSEE Cement");
-  const [email, setEmail]     = useState("INSEECCement@gmail.com");
+  const [email, setEmail]     = useState("lakshansanchitha2000@gmail.com");
   const [message, setMessage] = useState("");
   const [toast, setToast]     = useState(false);
   const [sending, setSending] = useState(false);
